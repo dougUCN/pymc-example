@@ -1,0 +1,33 @@
+# Jupyter and Python
+.ipynb_checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest files
+.pytest_cache
+.coverage
+.coverage.*
+
+# IDEs/editors
+*.sw?
+.vscode/
+
+# MacOS specific files
+.DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Poetry lock file
+poetry.lock
+
+# Local and temporary files
+local/
+temp/
