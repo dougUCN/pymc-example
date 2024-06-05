@@ -39,5 +39,6 @@ setup-dev:
 	@echo "Setting up development environment..."
 	@conda install poetry && \
 	poetry self update && \
-	poetry install
+	poetry install && \
+	conda install --yes python-graphviz
 	@echo "Development environment setup complete."

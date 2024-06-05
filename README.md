@@ -22,3 +22,9 @@ Adding to the optional dev dependencies can be done with
 ```bash
 poetry add <package_name> -G dev
 ```
+
+## GraphViz
+
+The notebooks use graphviz to depict computation graphs. This requires an additional conda dependency,
+```bash
+conda install python-graphviz # Already performed by `make setup-dev`
